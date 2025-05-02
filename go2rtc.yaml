@@ -1,0 +1,18 @@
+streams:
+  twin_outfeed_2:
+    - rtsp://username:password@192.168.0.1/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+  swede_ptz:
+    - rtsp://username:password@192.168.0.2/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+  debarker_outfeed: 
+    - rtsp://username:password@192.168.0.3/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+  twin_outfeed:
+    - rtsp://username:password@192.168.0.4/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+#these are the ones for the kiosks
+  debark_1:
+    - rtsp://username:password@192.168.0.4/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+  twin_1:
+    - rtsp://username:password@192.168.0.5/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+#  gang_1:
+#    - rtsp://username:password@192.168.0.6/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
+  chop_1:
+    - rtsp://username:password@192.168.0.7/onvif-media/media.amp?profile=profile_1_h264&sessiontimeout=60&streamtype=unicast
