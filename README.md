@@ -73,3 +73,6 @@ uncomment the WalyandEnable=false line
 
     Browse to the script
 
+<!-- Purpose: Minmized version of the camera kiosk html pages -->
+<!-- INSTALL_COMMAND: you need to configure and then run each script you want and the broker. -->
+<!-- RUN_COMMAND: see install -->
